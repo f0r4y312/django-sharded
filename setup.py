@@ -25,10 +25,11 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-sharded',
-    version='0.1.0',
+    version='0.1.1',
     description='Get started with sharded databases using ShardedModel, related fields, querysets, managers and a shard-aware database router.',
     long_description=README,
-    url='https://github/f0r4y312/django-sharded',
+    keywords='django shards sharding sharded databases',
+    url='https://github.com/f0r4y312/django-sharded',
     author='Vimal Aravindashan',
     author_email='vimal.aravindashan@gmail.com',
     license='Apache-2.0',
