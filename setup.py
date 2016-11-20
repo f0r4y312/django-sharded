@@ -25,7 +25,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-sharded',
-    version='0.1.1',
+    version='0.1.2',
     description='Get started with sharded databases using ShardedModel, related fields, querysets, managers and a shard-aware database router.',
     long_description=README,
     keywords='django shards sharding sharded databases',
@@ -45,7 +45,7 @@ setup(
         'Framework :: Django',
         'Framework :: Django :: 1.8',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: Apache Software License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
